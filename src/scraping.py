@@ -45,5 +45,6 @@ df_comments = pd.DataFrame(comments_object)
 df_comments.to_csv('data/raw/reclamacoes.csv',
                    index=False, encoding='utf-8')
 
+print('Scraping realizado com sucesso!')
 driver.close()
 driver.quit()

@@ -47,3 +47,5 @@ df_comments['texto_limpo'] = df_comments['conteudo'].apply(
     clean_text)  # apply usado para aplicar função no pandas
 df_comments['sentimento'] = df_comments['texto_limpo'].apply(feeling_handle)
 df_comments.to_csv('data/processed/reclamacoes_processado.csv', index=False,)
+
+print('Dados processados com sucesso!')
