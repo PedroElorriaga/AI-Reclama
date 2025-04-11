@@ -36,7 +36,7 @@ pipenv install
 
 ```
 
-3. Rode o scraper (edite a empresa se quiser)
+3. Rode o scraper (coloque a url da empresa, ex: https://www.reclameaqui.com.br/empresa/nome_empresa/lista-reclamacoes/)
 ```
 python src/scraper.py
 
@@ -50,7 +50,7 @@ python src/nlp.py
 
 5. Execute as análises no Jupyter Notebook
 ```
-jupyter notebook --no-browser notebooks/analise_inicial.ipynb
+jupyter notebook --no-browser notebooks/analise_notebook.ipynb
 
 ```
 

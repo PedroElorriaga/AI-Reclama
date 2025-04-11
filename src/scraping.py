@@ -62,7 +62,7 @@ def handle_comments():
 
 
 if max_section > 50:
-    actual_section = 1
+    actual_section = 0
     while actual_section < 50:
         handle_comments()
         actual_section += 1
@@ -70,7 +70,7 @@ if max_section > 50:
             By.TAG_NAME, 'button')[2]
         button_foward_section.click()
 elif max_section > 0:
-    actual_section = 1
+    actual_section = 0
     while actual_section < max_section:
         handle_comments()
         button_foward_section = contanier_comment.find_elements(
