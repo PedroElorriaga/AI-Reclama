@@ -50,7 +50,7 @@ python src/nlp.py
 
 5. Execute as análises no Jupyter Notebook
 ```
-jupyter notebook notebooks/analise_inicial.ipynb
+jupyter notebook --no-browser notebooks/analise_inicial.ipynb
 
 ```
 

@@ -42,7 +42,7 @@ for comment in div_comments_array:
 
 # HANDLE WITH DATAFRAMES
 df_comments = pd.DataFrame(comments_object)
-df_comments.to_csv('data/raw/reclamacoes.csv',
+df_comments.to_csv('./data/raw/reclamacoes.csv',
                    index=False, encoding='utf-8')
 
 print('Scraping realizado com sucesso!')
